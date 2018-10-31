@@ -1,0 +1,324 @@
+                                @media screen and (max-width: 768px) {
+                                    #bun {
+                                        display: block;
+                                    }
+                                    .nav-top {
+                                        height: 0;
+                                        width: 100%;
+                                        float: none;
+                                        transition: all .5s;
+                                        transition-delay: 1s;
+                                    }
+                                    .nav-top ul {
+                                        display: none;
+                                        float: none;
+                                        transition: opacity 1s ease-out;
+                                        opacity: 0;
+                                    }
+                                    .menu-btn ul {
+                                        display: block;
+                                        opacity: 1;
+                                    }
+                                    .nav-top ul li {
+                                        float: none;
+                                        opacity: 0;
+                                        visibility: hidden;
+                                        transition: opacity 1s ease-out;
+                                    }
+                                    .menu-btn ul li {
+                                        opacity: 1;
+                                        visibility: visible;
+                                    }
+                                    .logo-img {
+                                        width: 100%;
+                                        float: none;
+                                    }
+                                    .logo {
+                                        float: left;
+                                        height: 68px;
+                                    }
+                                    .search-m {
+                                        display: inline-block;
+                                        width: 67%;
+                                        margin: 0 10% 0 8%;
+                                        height: 70px;
+                                        line-height: 68px;
+                                        padding: 0 2%;
+                                    }
+                                    .search-m .serch-up {
+                                        width: 96%;
+                                        display: inline-block;
+                                    }
+                                    nav ul li:not(:first-child) {
+                                        margin-left: 0;
+                                    }
+                                    nav ul li:last-child {
+                                        display: none;
+                                    }
+                                    #search.show {
+                                        display: inline-block !important;
+                                        width: 96%;
+                                    }
+                                    .menu-btn.nav-top {
+                                        float: left;
+                                        height: 100%;
+                                        margin: 0 0 20px;
+                                        transition: all .5s;
+                                    }
+                                    .banner {
+                                        top: -2px;
+                                    }
+                                    .banner {
+                                        height: 600px;
+                                    }
+                                    .about-left {
+                                        padding: 44px 80px 30px 33px;
+                                        margin-bottom: 30px;
+                                    }
+                                    .about-left p {
+                                        margin-top: 15px;
+                                        margin-bottom: 30px;
+                                        font-size: 15px;
+                                    }
+                                    .about-video {
+                                        margin-left: -80px;
+                                        margin-bottom: 80px;
+                                    }
+                                    .gallery-item {
+                                        flex: 50%;
+                                        height: 300px;
+                                    }
+                                    .dropdown {
+                                        display: none !important;
+                                    }
+                                    .menu-btn .sub-nav {
+                                        display: block;
+                                    }
+                                    .menu-btn .sub-nav {
+                                        margin: 20px;
+                                        opacity: 0;
+                                        visibility: hidden;
+                                        display: none;
+                                        transition: all .5s ease-out;
+                                    }
+                                    nav ul.sub-nav li a {
+                                        display: inline-block;
+                                        padding: 0 20px;
+                                        font-size: 14px;
+                                        color: #41464d;
+                                        height: 30px;
+                                        font-weight: 600;
+                                        line-height: 30px;
+                                        text-transform: uppercase;
+                                    }
+                                    nav ul li a {
+                                        height: 64px;
+                                        line-height: 64px;
+                                    }
+                                    .our--products:hover .sub-nav {
+                                        margin-top: -10px;
+                                        display: block;
+                                        opacity: 1;
+                                        visibility: visible;
+                                    }
+                                    .menu-btn>ul {
+                                        height: 383px;
+                                        overflow: scroll;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 767px) {
+                                    label {
+                                        float: right;
+                                    }
+                                    .search-m {
+                                        margin: 0 7% 0 3%;
+                                        padding: 0 2%;
+                                    }
+                                    .about-left {
+                                        padding: 44px 30px 30px 30px;
+                                        margin-bottom: 15px;
+                                    }
+                                    .about-video {
+                                        width: 100%;
+                                        height: auto;
+                                        margin: 0;
+                                        margin-top: 40px;
+                                        margin-bottom: 15px;
+                                    }
+                                    .btn-view {
+                                        float: left;
+                                    }
+                                    .dropdown {
+                                        display: none;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 550px) {
+                                    #banner .owl-theme .owl-dots .owl-dot.active span:before {
+                                        width: 250px;
+                                        font-size: 16px;
+                                        left: -118px;
+                                    }
+                                    #banner .owl-theme .owl-dots .owl-dot.active span:after {
+                                        top: -39px;
+                                    }
+                                    #banner .owl-dots {
+                                        left: 36%;
+                                    }
+                                    #bun {
+                                        right: 47px;
+                                    }
+                                    .search-m {
+                                        float: right;
+                                        margin: 0;
+                                        width: auto;
+                                    }
+                                    .search-m .serch-up {
+                                        width: auto;
+                                        border: none;
+                                        outline: none;
+                                        border: 2px solid #1b519f;
+                                        content: '';
+                                        border-radius: 5px;
+                                        padding: 9px;
+                                        right: 0;
+                                        bottom: -100px;
+                                        opacity: 0;
+                                        z-index: 99;
+                                        visibility: hidden;
+                                        position: absolute;
+                                        transition: all .5s ease-in;
+                                    }
+                                    .search-m .serch-up.show1 {
+                                        bottom: -37px;
+                                        visibility: visible;
+                                        opacity: 1;
+                                    }
+                                    .search-m {
+                                        position: relative;
+                                        height: 60px;
+                                        z-index: 1000;
+                                        line-height: 60px;
+                                    }
+                                    .arrow-text {
+                                        padding: 35px;
+                                    }
+                                    .banner {
+                                        height: 315px;
+                                    }
+                                    .gallery-item {
+                                        float: none;
+                                        flex: 100%;
+                                        height: 200px;
+                                    }
+                                    .contact {
+                                        padding: 40px 0 40px 0;
+                                    }
+                                    .text-contact h3 {
+                                        font-size: 42px;
+                                    }
+                                    .text-contact h4 {
+                                        margin-top: 15px;
+                                        font-size: 22px;
+                                    }
+                                    .div-contact,
+                                    .inquery {
+                                        margin-top: 20px;
+                                    }
+                                    .text-contact h4 {
+                                        margin-top: 0;
+                                        font-size: 22px;
+                                    }
+                                    .location {
+                                        width: 90%;
+                                    }
+                                    .input-contact {
+                                        margin-top: 40px;
+                                    }
+                                    .footer__right {
+                                        text-align: center;
+                                    }
+                                    .gallery-kerb{
+                                        width: 100%;
+                                        display: block;
+                                    }
+                                    .product .about{
+                                        margin-bottom: 20px;
+                                    }
+                                    .gallery-slider {
+                                        float: none;
+                                        width: 100%;
+                                    }
+                                    .gallery__carousel .owl-nav button.owl-prev,
+                                    .gallery1__carousel .owl-nav button.owl-prev{
+                                            right: 0;
+                                    }
+                                    .gallery__carousel .owl-nav button.owl-next,
+                                    .gallery1__carousel .owl-nav button.owl-next{
+                                        left: 0;
+                                    }
+                                    .gallery-item{
+                                        height: auto;
+                                    }
+                                    .gallery-paver .gallery__carousel .owl-nav button.owl-prev,
+                                    .gallery-paver .gallery1__carousel .owl-nav button.owl-prev{
+                                        right: 0;
+                                    }
+                                    .gallery-paver .gallery__carousel .owl-nav button.owl-next,
+                                    .gallery-paver .gallery1__carousel .owl-nav button.owl-next{
+                                        left: 0;
+                                    }
+                                    .left-gallery-tabs{
+                                        width: 100%;
+                                        float: none;
+                                    }
+                                    .right-gallery-tabs{
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                }
+                                
+                                @media screen and (max-width:480px) {
+                                    #banner .owl-dots {
+                                        left: 33%;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 375px) {
+                                    #banner .owl-theme .owl-dots .owl-dot.active span:before {
+                                        display: none;
+                                    }
+                                    #banner .owl-theme .owl-dots .owl-dot.active span:after {
+                                        display: none;
+                                    }
+                                    #banner .owl-dots {
+                                        bottom: 30%;
+                                        left: 28%;
+                                    }
+                                    .arrow-text p {
+                                        font-size: 18px;
+                                    }
+                                    .footer__bottom-left {
+                                        float: none;
+                                        text-align: center;
+                                    }
+                                    .footer__bottom-right {
+                                        margin-top: 10px;
+                                        float: none;
+                                        text-align: center;
+                                    }
+                                    .footer__bottom-right a {
+                                        margin-top: 6px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 320px) {
+                                    .logo {
+                                        display: inline-block;
+                                        padding: 6px 0;
+                                        text-decoration: none;
+                                        width: 75px;
+                                        height: 55px;
+                                    }
+                                }

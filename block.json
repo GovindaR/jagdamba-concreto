@@ -1,0 +1,6 @@
+[{ "productID": "0", "name": "Block", "dimension": "200*100*60/80/100", "compressiveStrength": ">35/40/50", "weight": "2.6/3.4/4.5", "Nos.Per Sq/m": "50", "price": "300", "guidline": "grey-block.pdf", "color": "grey" },
+    { "productID": "1", "name": "Block", "dimension": "200*100*60/80/100", "compressiveStrength": ">35/40/50", "weight": "2.6/3.4/4.5", "Nos.Per Sq/m": "50", "price": "400", "guidline": "yellow-block.pdf", "color": "yellow" },
+    { "productID": "2", "name": "Block", "dimension": "200*100*60/80/100", "compressiveStrength": ">35/40/50", "weight": "2.6/3.4/4.5", "Nos.Per Sq/m": "50", "price": "500", "guidline": "brown-block.pdf", "color": "brown" },
+    { "productID": "3", "name": "Block", "dimension": "200*100*60/80/100", "compressiveStrength": ">35/40/50", "weight": "2.6/3.4/4.5", "Nos.Per Sq/m": "50", "price": "600", "guidline": "maroon-block.pdf", "color": "maroon" },
+    { "productID": "4", "name": "Block", "dimension": "200*100*60/80/100", "compressiveStrength": ">35/40/50", "weight": "2.6/3.4/4.5", "Nos.Per Sq/m": "50", "price": "700", "guidline": "black-block.pdf", "color": "black" }
+]
