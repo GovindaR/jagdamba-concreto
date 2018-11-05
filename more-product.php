@@ -56,7 +56,7 @@
                             <a href="./index.html">Home</a>
                         </li>
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="./about.html">About Us</a>
                         </li>
                         <li>
                             <a href="#">Application</a>
@@ -408,13 +408,13 @@
                             </div>
                         </li>
                         <li>
-                            <a href="#">Gallery</a>
+                            <a href="./gallery.html">Gallery</a>
                         </li>
                         <li>
                             <a href="#">Blogs</a>
                         </li>
                         <li>
-                            <a href="#">Contact Us</a>
+                            <a href="./contact.html">Contact Us</a>
                         </li>
                         <li class="search-btn">
                             <a href="#" class="search">

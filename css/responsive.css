@@ -72,7 +72,7 @@
                                         height: 600px;
                                     }
                                     .about-left {
-                                        padding: 44px 80px 30px 33px;
+                                        padding: 44px 80px 30px 38px;
                                         margin-bottom: 30px;
                                     }
                                     .about-left p {
@@ -276,6 +276,9 @@
                                     .right-gallery-tabs{
                                         width: 100%;
                                         height: auto;
+                                    }
+                                    .about-left{
+                                        width: 100%;
                                     }
                                 }
                                 

@@ -56,7 +56,7 @@
                             <a href="./index.html">Home</a>
                         </li>
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="./about.html">About Us</a>
                         </li>
                         <li>
                             <a href="#">Application</a>
@@ -408,13 +408,13 @@
                             </div>
                         </li>
                         <li>
-                            <a href="#">Gallery</a>
+                            <a href="./gallery.html">Gallery</a>
                         </li>
                         <li>
                             <a href="#">Blogs</a>
                         </li>
                         <li>
-                            <a href="#">Contact Us</a>
+                            <a href="./contact.html">Contact Us</a>
                         </li>
                         <li class="search-btn">
                             <a href="#" class="search">
@@ -443,46 +443,7 @@
                     </div>
                 </div>
             </div>
-           <!--  <div class="banner">
-                <div class="header__text-box">
-                    <div class="item">
-                        <h3 class="heading-primary">
-                            <span class="heading-primary--main">WORLD CLASS</span>
-                            <span class="heading-primary--sub">bLOCK . BRICKS . PAVERS</span>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="header__text-box">
-                    <div class="item">
-                        <h3 class="heading-primary">
-                            <span class="heading-primary--main">WORLD CLASS</span>
-                            <span class="heading-primary--sub">bLOCK . BRICKS . PAVERS</span>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="header__text-box">
-                    <div class="item">
-                        <h3 class="heading-primary">
-                            <span class="heading-primary--main">WORLD CLASS</span>
-                            <span class="heading-primary--sub">bLOCK . BRICKS . PAVERS</span>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="header__text-box">
-                    <div class="item">
-                        <h3 class="heading-primary">
-                            <span class="heading-primary--main">WORLD CLASS</span>
-                            <span class="heading-primary--sub">bLOCK . BRICKS . PAVERS</span>
-                        </h3>
-                    </div>
-                </div>
-            </div> -->
+   
         </div>
     </section>
     <!-- About -->
@@ -492,7 +453,7 @@
                 <div class="col-sm-6">
                     <div class="about-left">
                         <a href="#" class="btn-arrow">
-                             About US <i class="fas fa-arrow-right"></i>
+                             Our Products <i class="fas fa-arrow-right"></i>
                         </a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
@@ -500,17 +461,11 @@
                                 Read More
                               </a>
                     </div>
-                    <!-- <a href="#" class="btn-arrow btn-arrow-blue">
-                            Our Products<i class="fas fa-arrow-right"></i>
-                        </a> -->
                 </div>
                 <div class="col-sm-6">
                     <div class="about-video">
                         <img data-src="img/vedio.jpg">
                     </div>
-                    <!-- <a href="#" class="btn-read btn-view">
-                                 Read More
-                            </a> -->
                 </div>
             </div>
         </div>
@@ -518,64 +473,7 @@
     <!-- Gallery-tabs -->
     <div id="top-gallery" style="opacity:0;height:100px;margin-top:-100px;"></div>
   <section class="gallery-tabs clearfix">
-    <div class="left-gallery-tabs">
-            <div class="middle-gallery-tabs">
-                <div class="left-img">
-                    <img data-src="img/block.png" alt="block">
-                </div>
-                <div class="header-gallery-tabs">
-                    <h4>2 holes block</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type</p>
-                </div>
-                <div class="application-gallery-tabs">
-                    <a class="btn-app">application</a>
-                    <div class="para-app">
-                        <p>Specially designed interior floorings.</p>
-                        <p>Suitable Application Area</p>
-                        <p>Most Suitable: Home Floors | Communal Floors</p>
-                        <p>SomeWhat Suitable: Foot Traffic | Terraces | Industrial Floors</p>
-                    </div>
-                </div>
-                <div class="application-gallery-tabs">
-                    <a  class="btn-app price-btn">price list</a>
-                    <div class="para-app price-details">
-                        <p>Specially designed interior floorings.</p>
-                        <p>Suitable Application Area</p>
-                    </div>
-                </div>
-                <div class="application-gallery-tabs">
-                    <a  class="btn-app guidline-btn">guidline</a>
-                    <div class="para-app guidlin-details">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="right-gallery-tabs">
-            <div class="gallery1__carousel  owl-carousel owl-theme">
-                <div class="gallery-img gallery-item">
-                    <img data-src="img/gallery2.jpg" alt="gallery2">
-                    <div class="arrow-text clearfix">
-                        <p>Paving Blocks</p>
-                        <a href="#" class="arrow"><img data-src="img/arrow.png" alt="arrow"></a>
-                    </div>
-                </div>
-                <div class="gallery-img gallery-item">
-                    <img data-src="img/gallery2.jpg" alt="gallery2">
-                    <div class="arrow-text clearfix">
-                        <p>Paving Blocks</p>
-                        <a href="#" class="arrow"><img data-src="img/arrow.png" alt="arrow"></a>
-                    </div>
-                </div>
-                <div class="gallery-img gallery-item">
-                    <img data-src="img/gallery2.jpg" alt="gallery2">
-                    <div class="arrow-text clearfix">
-                        <p>Paving Blocks</p>
-                        <a href="#" class="arrow"><img data-src="img/arrow.png" alt="arrow"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+   
   </section>
 
     <!-- Gallery -->
